@@ -12,6 +12,7 @@
 		189436A81ED537AE00F5DA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189436A71ED537AE00F5DA3D /* Assets.xcassets */; };
 		189436AB1ED537AE00F5DA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189436A91ED537AE00F5DA3D /* LaunchScreen.storyboard */; };
 		189436BD1ED5407A00F5DA3D /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189436BC1ED5407A00F5DA3D /* SignInVC.swift */; };
+		189436BF1ED54C2300F5DA3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 189436BE1ED54C2300F5DA3D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		189436AA1ED537AE00F5DA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189436AC1ED537AE00F5DA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189436BC1ED5407A00F5DA3D /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		189436BE1ED54C2300F5DA3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				189436A71ED537AE00F5DA3D /* Assets.xcassets */,
 				189436A91ED537AE00F5DA3D /* LaunchScreen.storyboard */,
 				189436AC1ED537AE00F5DA3D /* Info.plist */,
+				189436BE1ED54C2300F5DA3D /* GoogleService-Info.plist */,
 			);
 			path = UberDriverApp;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189436AB1ED537AE00F5DA3D /* LaunchScreen.storyboard in Resources */,
+				189436BF1ED54C2300F5DA3D /* GoogleService-Info.plist in Resources */,
 				189436A81ED537AE00F5DA3D /* Assets.xcassets in Resources */,
 				189436A61ED537AE00F5DA3D /* Main.storyboard in Resources */,
 			);
