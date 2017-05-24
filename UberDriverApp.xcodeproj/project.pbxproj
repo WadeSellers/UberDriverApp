@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		189436A11ED537AE00F5DA3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189436A01ED537AE00F5DA3D /* AppDelegate.swift */; };
-		189436A31ED537AE00F5DA3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189436A21ED537AE00F5DA3D /* ViewController.swift */; };
 		189436A61ED537AE00F5DA3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189436A41ED537AE00F5DA3D /* Main.storyboard */; };
 		189436A81ED537AE00F5DA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189436A71ED537AE00F5DA3D /* Assets.xcassets */; };
 		189436AB1ED537AE00F5DA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189436A91ED537AE00F5DA3D /* LaunchScreen.storyboard */; };
+		189436BD1ED5407A00F5DA3D /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189436BC1ED5407A00F5DA3D /* SignInVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1894369D1ED537AE00F5DA3D /* UberDriverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberDriverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189436A01ED537AE00F5DA3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		189436A21ED537AE00F5DA3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		189436A51ED537AE00F5DA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189436A71ED537AE00F5DA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189436AA1ED537AE00F5DA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189436AC1ED537AE00F5DA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189436BC1ED5407A00F5DA3D /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,38 @@
 		1894369F1ED537AE00F5DA3D /* UberDriverApp */ = {
 			isa = PBXGroup;
 			children = (
+				189436BB1ED5406200F5DA3D /* Controller */,
+				189436BA1ED5405D00F5DA3D /* View */,
+				189436B91ED5405600F5DA3D /* Model */,
 				189436A01ED537AE00F5DA3D /* AppDelegate.swift */,
-				189436A21ED537AE00F5DA3D /* ViewController.swift */,
 				189436A41ED537AE00F5DA3D /* Main.storyboard */,
 				189436A71ED537AE00F5DA3D /* Assets.xcassets */,
 				189436A91ED537AE00F5DA3D /* LaunchScreen.storyboard */,
 				189436AC1ED537AE00F5DA3D /* Info.plist */,
 			);
 			path = UberDriverApp;
+			sourceTree = "<group>";
+		};
+		189436B91ED5405600F5DA3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		189436BA1ED5405D00F5DA3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		189436BB1ED5406200F5DA3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				189436BC1ED5407A00F5DA3D /* SignInVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189436A31ED537AE00F5DA3D /* ViewController.swift in Sources */,
 				189436A11ED537AE00F5DA3D /* AppDelegate.swift in Sources */,
+				189436BD1ED5407A00F5DA3D /* SignInVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
