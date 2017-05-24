@@ -6,7 +6,7 @@ target 'UberDriverApp' do
   use_frameworks!
 
   # Pods for UberDriverApp
-    pod 'Firebase/Core'
+    pod 'Firebase'
     pod 'Firebase/Storage'
     pod 'Firebase/Auth'
     pod 'Firebase/Database'

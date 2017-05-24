@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SignInVC: UIViewController {
 
@@ -16,11 +17,15 @@ class SignInVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
 
     }
 
     @IBAction func onLoginButtonTapped(_ sender: UIButton) {
+
+        if emailTextField.text != "" && passwordTextField.text != "" {
+
+        }
     }
 
     @IBAction func onSignUpButtonTapped(_ sender: UIButton) {
